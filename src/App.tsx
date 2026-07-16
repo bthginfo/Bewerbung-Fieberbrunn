@@ -4,6 +4,7 @@ type Film = { title: string; category: string; poster: string; embed?: string; l
 
 const films: Film[] = [
   { title: 'The Honourables · Golf & Business Cup', category: 'Outdoor · Community · Event', poster: '/media/films/the-honourables.jpg', embed: 'https://drive.google.com/file/d/1LH989Q6MOTSidqQZzisju0qqdQDrAwig/preview' },
+  { title: 'Padle City · Imagefilm', category: 'Sport · Tempo · Community', poster: '/media/films/padle-city.jpg', embed: 'https://drive.google.com/file/d/1Nyh60q_YWGj521iGavPeOPj7iGZ5OSS1/preview' },
   { title: 'GRUBER.HAUS · Jungle Hut', category: 'Natur · Architektur · Geschichte', poster: '/media/films/gruber-jungle-hut.jpg', embed: 'https://www.youtube-nocookie.com/embed/rszFtLr1_GI' },
   { title: 'Griesmüller Stadtbrauerei', category: 'Ort · Menschen · Handwerk', poster: '/media/films/griesmueller.jpg', local: '/media/films/griesmueller.mp4' },
   { title: 'Shi Heng Yi · Shaolin Spirit', category: 'Sport · Gesundheit · Gespräch', poster: '/media/films/shaolin-spirit.jpg', embed: 'https://www.youtube-nocookie.com/embed/vLoTyZ7CVRw' },
@@ -132,7 +133,7 @@ function Home() {
       </section>
 
       <section className="seasons">
-        <figure><img src="/media/fieberbrunn/summer-hero.jpg" alt="Sommerlandschaft am Wildseeloder in Fieberbrunn" loading="lazy" /><figcaption>Ort: Fieberbrunn · Bild: Bergbahnen Fieberbrunn</figcaption></figure>
+        <figure><img src="/media/sport/paddle-02.jpg" alt="Dynamischer Ballwechsel auf dem Padel-Court, fotografiert von Mario Schubert" loading="lazy" /><figcaption>Padle City · Foto: Mario Schubert / WYLDWORKS</figcaption></figure>
         <div className="season-copy"><span>05 / Jahreslauf</span><h2>Ein Berg.<br />Zwei Saisons.<br /><em>Viele Anlässe.</em></h2><p>Das System bleibt stabil, die Geschichten wechseln. Im Winter geht es um Bedingungen, Menschen und Timing. Im Sommer um Wege, Bewegung und das Draußensein. Website, Social und Partnerkommunikation bekommen jeweils die Perspektive, die sie brauchen.</p><div className="season-axis"><span>Winter</span><i /><span>Sommer</span></div></div>
       </section>
 
